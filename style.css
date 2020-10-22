@@ -1,0 +1,115 @@
+body {
+	font-size: 16px;
+	font-family: 'Karla', sans-serif;
+	margin: 0;
+}
+
+h1 {
+	color: hsl(179, 62%, 43%);
+}
+
+h2 {
+	color: hsl(71, 73%, 54%);
+}
+
+h3 {
+	color: hsl(204, 43%, 93%);
+}
+
+p {
+	color: hsl(218, 22%, 67%);
+}
+
+button {
+	background-color: hsl(71, 73%, 54%);
+	padding: 15px;
+	border: 0;
+	color: white;
+	border-radius: 5px;
+	font-size: 16px;
+	width: 240px;
+	margin: 20px 0;
+	box-shadow: 0px 0px 8px 1px white;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	color:  hsl(204, 43%, 93%);
+	line-height: 1.5;
+}
+
+.price-number {
+	color: white;
+	display: inline;
+}
+
+.text-right {
+	color: hsl(204, 43%, 93%);
+	display: inline;
+	position: relative;
+	bottom: 5px;
+	margin: 0px;
+}
+
+.text-below {
+	color: hsl(204, 43%, 93%);
+}
+
+.top-container {
+	padding: 20px 30px;
+	background-color: white;
+}
+
+.bottom-container {
+	background-color: hsl(179, 62%, 43%);	
+	height: 480px;
+}
+
+@media screen and (min-width: 590px) {
+.bottom-container {
+	height: 240px;
+}
+}
+
+.left-box {
+	width: 375px;
+	display: inline-block;
+	background-color: hsl(179, 62%, 43%);
+	height: 240px;
+	position: relative;
+}
+
+@media screen and (min-width: 590px) {
+.left-box {
+	width: 49%;
+}
+}
+
+.right-box {
+	background-color: hsl(179, 52%, 53%);
+	display: inline-block;
+	width: 375px;
+	height: 240px;
+	position: relative;
+	width: 100%;
+}
+
+@media screen and (min-width: 590px) {
+.right-box {
+	width: 50%;
+	left: 10px;
+}
+}
+
+.left-box-content {
+	position: absolute;
+	padding: 0px 30px;
+	width: 260px;
+}
+
+.right-box-content {
+	position: absolute;
+	padding: 0px 30px;
+	width: 260px;
+}
